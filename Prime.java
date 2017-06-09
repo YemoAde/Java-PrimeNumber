@@ -11,6 +11,7 @@ public class Prime{
 			if((n % baseArray[i]) == 0 && n != baseArray[i]){
 				value = true;
 				System.out.println(" Not Prime");
+				break;
 			}
 		}
 		if(!value){
